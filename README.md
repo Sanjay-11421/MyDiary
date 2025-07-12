@@ -39,7 +39,7 @@ Deployed Live 👉 [my-diary-red.vercel.app](https://my-diary-red.vercel.app/)
 
 ```bash
 git clone https://github.com/Sanjay-11421/MyDiary.git
-cd my-diary
+cd MyDiary
 ```
 ### 2. Setup Frontend
 
