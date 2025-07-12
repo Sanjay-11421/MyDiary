@@ -19,7 +19,7 @@ const ViewEntry = () => {
     try {
       setLoading(true);
       const res = await axios.get(
-        `http://localhost:5001/api/diary/getOne/${id}`,
+        `https://mydiary-ajb3.onrender.com/api/diary/getOne/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -36,7 +36,7 @@ const ViewEntry = () => {
 
   const handleDelete = async () => {
     await axios
-      .delete(`http://localhost:5001/api/diary/delete/${id}`, {
+      .delete(`https://mydiary-ajb3.onrender.com/api/diary/delete/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

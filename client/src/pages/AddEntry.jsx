@@ -15,7 +15,7 @@ const AddEntry = () => {
 
     axios
       .post(
-        "http://localhost:5001/api/diary/create",
+        "https://mydiary-ajb3.onrender.com/api/diary/create",
         {
           title,
           content,

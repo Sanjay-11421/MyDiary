@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
     if (!email || !password) return;
     await axios
-      .post("http://localhost:5001/api/auth/login", {
+      .post("https://mydiary-ajb3.onrender.com/api/auth/login", {
         email,
         password,
       })

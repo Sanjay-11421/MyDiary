@@ -16,7 +16,7 @@ const SignUp = () => {
       return;
     }
     await axios
-      .post("http://localhost:5001/api/auth/register", {
+      .post("https://mydiary-ajb3.onrender.com/api/auth/register", {
         name,
         email,
         password,

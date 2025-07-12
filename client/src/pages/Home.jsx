@@ -12,7 +12,7 @@ const Home = () => {
 
   const fetchData = () => {
     axios
-      .get("http://localhost:5001/api/diary/get", {
+      .get("https://mydiary-ajb3.onrender.com/api/diary/get", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
